@@ -6,7 +6,7 @@ configuration files and setup instructions for vagrant dev vms
 1. vagrant up --provider vmware_fusion
 1. mkdir ~/repos
 1. git clone https://github.com/jakeplahn/vms.git
-1. `echo 'source ~/repos/.bash_customizations' >>~/.bash_profile`
+1. `echo 'source ~/repos/vms/.bash_customizations' >>~/.bash_profile`
 
 tools
 - vim
