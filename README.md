@@ -9,6 +9,8 @@ configuration files and setup instructions for vagrant dev vms
 1. curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 1. chmod +x setuptmux.sh
 1. ./setuptmux.sh 2.6
+1. chmod +x setuptmuxinator.sh
+1. ./setuptmuxinator.sh
 1. `echo 'source ~/repos/vms/.bash_customizations' >>~/.bash_profile`
 
 tools
