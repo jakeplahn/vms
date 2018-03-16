@@ -11,6 +11,7 @@ configuration files and setup instructions for vagrant dev vms
 1. ./setuptmux.sh 2.6
 1. chmod +x setuptmuxinator.sh
 1. ./setuptmuxinator.sh
+1. `echo 'source ~/repos/vms/.vimrc_customizations' >>~/.vimrc`
 1. `echo 'source ~/repos/vms/.bash_customizations' >>~/.bash_profile`
 
 tools
