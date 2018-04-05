@@ -4,6 +4,11 @@ configuration files and setup instructions for vagrant dev vms
 1. Create directory in vms folder and navigate to it
 1. vagrant init bento/ubuntu-17.10
 1. set memory to 1024 in Vagrantfile
+```
+config.vm.provider "vmware_fusion" do |vb|
+vb.memory = "1024"
+end
+```
 1. vagrant up --provider vmware_fusion
 1. vagrant ssh
 1. mkdir ~/repos
