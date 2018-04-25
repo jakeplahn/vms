@@ -18,8 +18,9 @@ configuration files and setup instructions for vagrant dev vms
 1. git clone https://github.com/jakeplahn/vms.git
 1. curl -o ~/bashcompletion/git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 1. curl -o ~/bashcompletion/tmuxinator.bash https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.bash
+1. navigate to ~/repose/vms
 1. chmod +x setuptmux.sh
-1. ./setuptmux.sh 2.6
+1. ./setuptmux.sh 2.7
 1. chmod +x setuptmuxinator.sh
 1. ./setuptmuxinator.sh
 1. `echo 'source ~/repos/vms/.vimrc_customizations' >>~/.vimrc`
