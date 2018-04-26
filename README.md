@@ -10,7 +10,7 @@ configuration files and setup instructions for vagrant dev vms
    \ \ \ \ vb.memory = "1024"\
    \ \ end\
    ' Vagrantfile
-```
+   ```
 1. vagrant up --provider vmware_fusion
 1. vagrant ssh
 1. mkdir ~/repos
