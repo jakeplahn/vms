@@ -11,14 +11,10 @@ configuration files and setup instructions for vagrant dev vms
    \ \ end\
    ' Vagrantfile
    ```
-1. vagrant up --provider vmware_fusion
-1. vagrant ssh
-1. mkdir ~/repos
-1. navigate to ~/repos
-1. git clone https://github.com/jakeplahn/vms.git
-1. navigate to vms
-1. chmod +x setupvm.sh
-1. ./setupvm.sh
+1. vagrant up --provider vmware_fusion && vagrant ssh
+1. mkdir ~/repos && cd ~/repos
+1. git clone https://github.com/jakeplahn/vms.git && cd ~/repos/vms
+1. chmod +x setupvm.sh && ./setupvm.sh
 
 tools
 - vim
