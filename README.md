@@ -14,18 +14,11 @@ configuration files and setup instructions for vagrant dev vms
 1. vagrant up --provider vmware_fusion
 1. vagrant ssh
 1. mkdir ~/repos
-1. mkdir ~/bashcompletion
 1. navigate to ~/repos
 1. git clone https://github.com/jakeplahn/vms.git
-1. curl -o ~/bashcompletion/git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
-1. curl -o ~/bashcompletion/tmuxinator.bash https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.bash
-1. navigate to ~/repose/vms
-1. chmod +x setuptmux.sh
-1. ./setuptmux.sh 2.7
-1. chmod +x setuptmuxinator.sh
-1. ./setuptmuxinator.sh
-1. `echo 'source ~/repos/vms/.vimrc_customizations' >>~/.vimrc`
-1. `echo 'source ~/repos/vms/.bash_customizations' >>~/.bash_profile`
+1. navigate to vms
+1. chmod +x setupvm.sh
+1. ./setupvm.sh
 
 tools
 - vim
