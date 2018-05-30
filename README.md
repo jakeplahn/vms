@@ -8,7 +8,9 @@ configuration files and setup instructions for vagrant dev vms
    ```
    sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.provider "vmware_fusion" do |vb|\
    \ \ \ \ vb.memory = "1024"\
+   \ \ \ \ vb.clone_directory = "."\
    \ \ end\
+   \ \ config.vm.box = ""\
    ' Vagrantfile
    ```
 1. vagrant up --provider vmware_fusion && vagrant ssh
