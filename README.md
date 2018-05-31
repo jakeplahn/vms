@@ -10,7 +10,6 @@ configuration files and setup instructions for vagrant dev vms
    \ \ \ \ vb.memory = "1024"\
    \ \ \ \ vb.clone_directory = "."\
    \ \ end\
-   \ \ config.vm.box = ""\
    ' Vagrantfile
    ```
 1. vagrant up --provider vmware_fusion && vagrant ssh
