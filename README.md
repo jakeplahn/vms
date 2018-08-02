@@ -2,7 +2,7 @@
 configuration files and setup instructions for vagrant dev vms
 
 1. Create directory in vms folder and navigate to it
-1. vagrant init bento/ubuntu-17.10
+1. vagrant init bento/ubuntu-18.04
 1. set memory to 1024 in Vagrantfile
    1. vmware
    ```
