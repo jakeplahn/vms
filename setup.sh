@@ -6,6 +6,6 @@ sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.provider "
 ' Vagrantfile
 vagrant up --provider vmware_fusion
 vagrant ssh -c "mkdir ~/repos"
-vagrant ssh -c "git clone https://github.com/jakeplahn/vms.git"
-vagrant ssh -c "chmod +x ~/repost/vms/setupvm.sh"
-vagrant ssh -c "./setupvm.sh"
+vagrant ssh -c "git clone https://github.com/jakeplahn/vms.git ~/repos/vms"
+vagrant ssh -c "chmod +x ~/repos/vms/setupvm.sh"
+vagrant ssh -c "~/repos/vms/setupvm.sh"
