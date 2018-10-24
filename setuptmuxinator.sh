@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo apt-get install rake
+sudo apt-get -y install rake
 sudo gem install tmuxinator
