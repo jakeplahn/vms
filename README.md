@@ -18,6 +18,7 @@ Selenium with JavaScript
 1. tar --extract --file geckodriver-v#.##.#-linux64.tar.gz
 1. cp geckodriver /usr/local/bin/
 1. sudo apt install -y firefox
+1. run https://raw.githubusercontent.com/jakeplahn/selenium-javascript/master/async-wait.js
 
 Node
 1. curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
