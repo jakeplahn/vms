@@ -14,6 +14,10 @@ configuration files and setup instructions for vagrant dev vms
 Selenium with JavaScript
 1. follow node steps
 1. npm install selenium-webdriver
+1. wget https://github.com/mozilla/geckodriver/releases/download/v#.##.#/geckodriver-v#.##.#-linux64.tar.gz
+1. tar --extract --file geckodriver-v#.##.#-linux64.tar.gz
+1. cp geckodriver /usr/local/bin/
+1. sudo apt install -y firefox
 
 Node
 1. curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
