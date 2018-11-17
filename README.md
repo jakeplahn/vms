@@ -29,3 +29,9 @@ postgresql
 1. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 1. sudo apt-get update
 1. sudo apt-get install postgresql-11
+
+phoenix
+1. wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+1. sudo apt-get update
+1. sudo apt-get install -y esl-erlang
+1. sudo apt-get install -y elixir
