@@ -35,3 +35,4 @@ phoenix
 1. sudo apt-get update
 1. sudo apt-get install -y esl-erlang
 1. sudo apt-get install -y elixir
+1. mix local.hex
