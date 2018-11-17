@@ -28,7 +28,7 @@ postgresql
 1. echo "deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main" | sudo tee --append /etc/apt/sources.list.d/pgdg.list
 1. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 1. sudo apt-get update
-1. sudo apt-get install postgresql-11
+1. sudo apt-get install -y postgresql-11
 
 phoenix
 1. wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
