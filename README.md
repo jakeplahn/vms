@@ -39,3 +39,4 @@ phoenix
 1. mix archive.install hex phx_new 1.4.0
 1. follow node steps
 1. follow postgresql steps
+1. apt-get install inotify-tools
