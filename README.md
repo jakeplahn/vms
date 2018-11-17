@@ -40,3 +40,4 @@ phoenix
 1. follow node steps
 1. follow postgresql steps
 1. sudo apt-get install -y inotify-tools
+1. sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres'"
