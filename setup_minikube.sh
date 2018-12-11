@@ -9,5 +9,6 @@ sudo cp minikube /usr/local/bin/
 rm minikube
 sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms
 sudo apt-get -y install virtualbox
+sudo apt-get install bash-completion
 minikube start --memory 4096
 kubectl get services
