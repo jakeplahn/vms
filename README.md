@@ -45,9 +45,9 @@ phoenix
 
 rails
 1. sudo apt-get update
-1. sudo apt-get install ruby-dev
-1. sudo apt-get install libsqlite3-dev
-1. sudo apt-get install sqlite3
+1. sudo apt-get install -y ruby-dev
+1. sudo apt-get install -y libsqlite3-dev
+1. sudo apt-get install -y sqlite3
 1. curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 1. sudo apt-get install -y nodejs
 1. sudo gem install rails --no-ri --no-rdoc
