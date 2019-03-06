@@ -42,3 +42,12 @@ phoenix
 1. follow postgresql steps
 1. sudo apt-get install -y inotify-tools
 1. sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres'"
+
+rails
+1. ssudo apt-get update
+1. ssudo apt-get install ruby-dev
+1. ssudo apt-get install libsqlite3-dev
+1. ssudo apt-get install sqlite3
+1. scurl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+1. ssudo apt-get install -y nodejs
+1. ssudo gem install rails --no-ri --no-rdoc
