@@ -1,5 +1,9 @@
 # vm setup
 configuration files and setup instructions for vagrant dev vms
+### create local box
+1. vagrant package
+1. vagrant box add --provider vmware_desktop --name ubuntu-18-1-0-local package.box
+
 ### base with local box
 1. Create directory in vms folder and navigate to it
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_local.sh && chmod +x setup_local.sh && ./setup_local.sh
