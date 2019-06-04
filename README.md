@@ -1,5 +1,9 @@
 # vm setup
 configuration files and setup instructions for vagrant dev vms
+### base with local box
+1. Create directory in vms folder and navigate to it
+1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_local.sh && chmod +x setup_local.sh && ./setup_local.sh
+
 ### base
 1. Create directory in vms folder and navigate to it
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup.sh && chmod +x setup.sh && ./setup.sh
