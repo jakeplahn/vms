@@ -1,4 +1,4 @@
-vagrant init bento/ubuntu-18.04
+vagrant init bento/ubuntu-18.10
 sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.provider "vmware_fusion" do |vb|\
 \ \ \ \ vb.memory = "1024"\
 \ \ \ \ vb.clone_directory = "."\
