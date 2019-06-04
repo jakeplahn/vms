@@ -6,4 +6,3 @@ sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.provider "
 ' Vagrantfile
 vagrant up --provider vmware_fusion
 vagrant ssh -c "sudo apt-get update && sudo apt-get -y upgrade"
-vagrant ssh -c "mkdir ~/repos"
