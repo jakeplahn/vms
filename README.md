@@ -12,9 +12,9 @@ configuration files and setup instructions for vagrant dev vms
 1. Create directory in vms folder and navigate to it
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup.sh && chmod +x setup.sh && ./setup.sh
 
-### nginx
+### lemp
 1. vagrant ssh
-1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_nginx.sh && chmod +x setup_nginx.sh && ./setup_nginx.sh
+1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_lemp.sh && chmod +x setup_lemp.sh && ./setup_lemp.sh
 
 ### minikube
 1. vagrant halt
