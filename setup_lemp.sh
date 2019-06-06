@@ -21,4 +21,5 @@ sudo chmod -R 755 ~/repos/lorem.com/html
 echo '<html><body><h3>lorem.com</h3></body></html>' > ~/repos/lorem.com/html/index.html
 sudo ln -s /etc/nginx/sites-available/lorem.com /etc/nginx/sites-enabled/
 sudo curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/nginx/lorem.com /etc/nginx/sites-available
+sudo sed -i -e '$ i\    include /etc/nginx/sites-enabled/*;' /etc/nginx/nginx.conf
 sudo systemctl start nginx
