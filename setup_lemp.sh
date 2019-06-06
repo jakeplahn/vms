@@ -13,8 +13,8 @@ sudo apt install -y mariadb-server
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt install -y php7.3-fpm php7.3-mysql
-mkdir /etc/nginx/sites-available
-mkdir /etc/nginx/sites-enabled
+sudo mkdir /etc/nginx/sites-available
+sudo mkdir /etc/nginx/sites-enabled
 sudo mkdir -p ~/repos/lorem.com/html
 sudo chown -R $USER:$USER ~/repos/lorem.com/html
 sudo chmod -R 755 ~/repos/lorem.com/html
