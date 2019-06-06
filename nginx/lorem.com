@@ -2,7 +2,7 @@ server {
   listen 80;
   listen [::]:80;
 
-  root /home/vagrant/repos/html;
+  root /home/vagrant/repos/lorem.com/html;
   index index.html;
 
   server_name lorem.com;
