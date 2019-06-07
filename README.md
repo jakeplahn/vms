@@ -66,3 +66,5 @@ rails
 
 java
 1. sudo apt install openjdk-11-jdk
+1. https://maven.apache.org/install.html
+1. https://spring.io/guides/gs/spring-boot/ (chrome - maven)
