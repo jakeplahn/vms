@@ -63,3 +63,6 @@ rails
 1. curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 1. sudo apt-get install -y nodejs
 1. sudo gem install rails --no-ri --no-rdoc
+
+java
+1. sudo apt install openjdk-11-jdk
