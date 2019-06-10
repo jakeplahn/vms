@@ -23,3 +23,4 @@ sudo curl -o /etc/nginx/sites-available/lorem.com https://raw.githubusercontent.
 sudo ln -s /etc/nginx/sites-available/lorem.com /etc/nginx/sites-enabled/
 sudo sed -i -e '$ i\    include /etc/nginx/sites-enabled/*;' /etc/nginx/nginx.conf
 sudo systemctl start nginx
+sudo usermod -a -G www-data nginx
