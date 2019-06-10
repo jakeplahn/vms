@@ -3,7 +3,7 @@ curl -o ~/bashcompletion/git-completion.bash https://raw.githubusercontent.com/g
 curl -o ~/bashcompletion/tmuxinator.bash https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.bash
 cd ~/repos/vms
 chmod +x setuptmux.sh
-./setuptmux.sh 2.8
+./setuptmux.sh 2.9a
 chmod +x setuptmuxinator.sh
 ./setuptmuxinator.sh
 echo 'source ~/repos/vms/.vimrc_customizations' >>~/.vimrc
