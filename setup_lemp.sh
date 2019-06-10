@@ -23,7 +23,7 @@ echo '<html><body><h3>lorem</h3><?php echo "hello jacob"?></body></html>' > ~/re
 sudo curl -o /etc/nginx/sites-available/lorem.com https://raw.githubusercontent.com/jakeplahn/vms/master/nginx/lorem.com
 sudo ln -s /etc/nginx/sites-available/lorem.com /etc/nginx/sites-enabled/
 sudo sed -i -e '$ i\    include /etc/nginx/sites-enabled/*;' /etc/nginx/nginx.conf
-sudo systemctl start nginx
 sudo usermod -a -G www-data nginx
+sudo systemctl start nginx
 curl localhost
 curl localhost/lorem.php
