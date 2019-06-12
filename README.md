@@ -34,7 +34,7 @@ Selenium with JavaScript
 1. run https://raw.githubusercontent.com/jakeplahn/selenium-javascript/master/async-wait.js
 
 Node
-1. curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+1. curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 1. sudo apt-get install -y nodejs
 
 postgresql
