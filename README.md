@@ -68,3 +68,7 @@ java
 1. sudo apt install openjdk-11-jdk
 1. https://maven.apache.org/install.html
 1. https://spring.io/guides/gs/spring-boot/ (chrome - maven)
+
+webpack
+1. Node steps
+1. sudo npm install --save-dev webpack
