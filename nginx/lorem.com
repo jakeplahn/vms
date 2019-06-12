@@ -2,10 +2,10 @@ server {
   listen 80;
   listen [::]:80;
 
-  root /home/vagrant/repos/lorem.com/html;
+  root /home/vagrant/repos/lorem.jakeplahn.com/site;
   index index.html;
 
-  server_name lorem.com;
+  server_name lorem.jakeplahn.com;
 
   location / {
     try_files $uri $uri/ =404;
