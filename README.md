@@ -72,3 +72,5 @@ java
 webpack
 1. Node steps
 1. sudo npm install --save-dev webpack
+1. sudo npm install --save-dev webpack-cli
+1. sudo npm install --global webpack
