@@ -77,6 +77,8 @@ webpack
 
 lando
 1. install docker ce
+1. wget https://github.com/lando/lando/releases/download/v3.0.0-rc.17/lando-v3.0.0-rc.17.deb
+1. sudo dpkg -i lando-v3.0.0-rc.17.deb
 
 docker ce
 1. sudo apt-get update
