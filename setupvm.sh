@@ -10,5 +10,9 @@ if [ -z "$1" ] || [ $1 == "spaces" ]
   then
     echo 'source ~/repos/vms/.vimrc_customizations_tabs_as_spaces' >>~/.vimrc
 fi
+if [ ! -z "$2" ]
+  then
+    git config --global user.name $2
+fi
 echo 'source ~/repos/vms/.vimrc_customizations' >>~/.vimrc
 echo 'source ~/repos/vms/.bash_customizations' >>~/.bash_profile
