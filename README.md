@@ -10,7 +10,8 @@ configuration files and setup instructions for vagrant dev vms
 
 ### base
 1. Create directory in vms folder and navigate to it
-1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup.sh && chmod +x setup.sh && ./setup.sh
+1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup.sh && chmod +x setup.sh && ./setup.sh [tab param]
+1. [tab param] can be tabs or spaces to indicate what tab format vim uses. spaces indicates 2 space tabs
 
 ### lemp
 1. vagrant ssh
