@@ -1,5 +1,6 @@
 vagrant init bento/ubuntu-18.10
-sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.provider "vmware_fusion" do |vmware|\
+sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.network :forwarded_port, guest: 22, host: 2223, id: 'ssh'\
+\ \ config.vm.provider "vmware_fusion" do |vmware|\
 \ \ \ \ vmware.memory = "1024"\
 \ \ \ \ vmware.clone_directory = "."\
 \ \ \ \ vmware.vmx["ethernet0.pcislotnumber"] = "32"\
