@@ -14,4 +14,3 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose
 sudo usermod -aG docker vagrant
-docker run hello-world
