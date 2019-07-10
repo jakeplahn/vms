@@ -14,6 +14,7 @@ configuration files and setup instructions for vagrant dev vms
 1. [tab param] can be tabs or spaces to indicate what tab format vim uses. spaces indicates 2 space tabs
 
 ### lemp
+1. run base steps
 1. vagrant ssh
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_lemp.sh && chmod +x setup_lemp.sh && ./setup_lemp.sh
 
