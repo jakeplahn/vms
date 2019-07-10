@@ -36,8 +36,9 @@ Selenium with JavaScript
 1. run https://raw.githubusercontent.com/jakeplahn/selenium-javascript/master/async-wait.js
 
 Node
-1. curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-1. sudo apt-get install -y nodejs
+1. run base steps
+1. vagrant ssh
+1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_nodejs.sh && chmod +x setup_nodejs.sh && ./setup_nodejs.sh
 
 postgresql
 1. echo "deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main" | sudo tee --append /etc/apt/sources.list.d/pgdg.list
