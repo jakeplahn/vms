@@ -87,3 +87,4 @@ docker (steps from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 1. run base steps
 1. vagrant ssh
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_docker.sh && chmod +x setup_docker.sh && ./setup_docker.sh
+1. exit and vagrant reload
