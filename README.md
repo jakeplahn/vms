@@ -67,6 +67,8 @@ rails
 1. sudo apt-get install -y nodejs
 1. sudo gem install rails --no-ri --no-rdoc
 1. follow yarn steps
+1. Vagrantfile - config.vm.network :forwarded_port, guest: 3000, host: 3000
+1. start rails dev server with bin/rails s -b 0.0.0.0
 
 yarn
 1. curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
