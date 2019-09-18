@@ -66,6 +66,12 @@ rails
 1. curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 1. sudo apt-get install -y nodejs
 1. sudo gem install rails --no-ri --no-rdoc
+1. follow yarn steps
+
+yarn
+1. curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+1. echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+1. sudo apt-get update && sudo apt-get install yarn
 
 java
 1. sudo apt install openjdk-11-jdk
