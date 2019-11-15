@@ -24,6 +24,8 @@ configuration files and setup instructions for vagrant dev vms
 1. vagrant reload
 1. vagrant ssh
 1. sudo snap install microk8s --classic
+1. sudo usermod -a -G microk8s ${USER}
+1. vagrant reload
 
 ### minikube
 1. vagrant halt
