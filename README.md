@@ -20,8 +20,9 @@ configuration files and setup instructions for vagrant dev vms
 
 ### microk8s
 1. run base
-1. sed -i '' 's/vb.memory = "1024"/vb.memory = "4096"/' Vagrantfile
+1. sed -i '' 's/vmware.memory = "1024"/vmware.memory = "4096"/' Vagrantfile
 1. vagrant reload
+1. vagrant ssh
 1. sudo snap install microk8s --classic
 
 ### minikube
