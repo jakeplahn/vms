@@ -18,6 +18,12 @@ configuration files and setup instructions for vagrant dev vms
 1. vagrant ssh
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_lemp.sh && chmod +x setup_lemp.sh && ./setup_lemp.sh
 
+### microk8s
+1. run base
+1. sed -i '' 's/vb.memory = "1024"/vb.memory = "4096"/' Vagrantfile
+1. vagrant reload
+1. sudo snap install microk8s --classic
+
 ### minikube
 1. vagrant halt
 1. enable hypervisor applications in this virtual machine
