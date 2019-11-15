@@ -97,7 +97,7 @@ lando
 1. wget https://github.com/lando/lando/releases/download/v3.0.0-rc.17/lando-v3.0.0-rc.17.deb
 1. sudo dpkg -i lando-v3.0.0-rc.17.deb
 
-docker latest version (steps from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+docker latest stable version (steps from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 1. run base steps
 1. vagrant ssh
 1. curl -O https://raw.githubusercontent.com/jakeplahn/vms/master/setup_docker.sh && chmod +x setup_docker.sh && ./setup_docker.sh
