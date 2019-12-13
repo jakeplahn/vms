@@ -111,3 +111,9 @@ docker using apt-get
 1. sudo apt-get install docker.io
 1. sudo usermod -aG docker ${USER}
 1. exit and vagrant reload
+
+mongodb (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+1. wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+1. echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+1. sudo apt-get update
+1. sudo apt-get install -y mongodb-org
