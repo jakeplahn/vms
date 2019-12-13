@@ -117,3 +117,4 @@ mongodb (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 1. echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 1. sudo apt-get update
 1. sudo apt-get install -y mongodb-org
+1. sudo service mongod start
