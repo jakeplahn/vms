@@ -3,7 +3,7 @@ curl -o ~/bashcompletion/git-completion.bash https://raw.githubusercontent.com/g
 curl -o ~/bashcompletion/tmuxinator.bash https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.bash
 cd ~/repos/vms
 chmod +x setuptmux.sh
-./setuptmux.sh 2.9a
+./setuptmux.sh 3.1b
 chmod +x setuptmuxinator.sh
 ./setuptmuxinator.sh
 if [ -z "$1" ] || [ $1 == "spaces" ]
