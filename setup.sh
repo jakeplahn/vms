@@ -1,4 +1,4 @@
-vagrant init bento/ubuntu-18.04
+vagrant init bento/ubuntu-20.04
 sed -i -e '/Vagrant.configure("2") do |config|/a\'$'\n''\ \ config.vm.network :forwarded_port, guest: 22, host: 2229, id: "ssh"\
 \ \ config.vm.provider "vmware_fusion" do |vmware|\
 \ \ \ \ vmware.memory = "1024"\
